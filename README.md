@@ -30,3 +30,5 @@ The purpose of this anaylsis was to apply machine learning to a real world chall
 - The Precision for EasyEnsembleClassifier is 0.99
 - The Recall for EasyEnsembleClassifier is 0.94
 
+# Summary
+The best performing models are the BalancedRandomForestClassifier and the EasyEnsembleClassifier, which makes sense, given these two models use ensemble learning, combining multiple algorithms to refine the prediction. EasyEnsembleClassifier had the highest balanced accuracy score at 0.925 and a recall of 0.94, with BalancedRandomForestClassifier coming in with the second best scores in these two categories. The lowest overall performer was the Cluster Centroid model, with a 0.51 balanced accuracy score and a recall of 0.57, only slightly better than completely random chance. The precision did not differ significantly between any of the methods, with all averageing 0.99. Of any of these models, EasyEnsembleClassifier would be the recommendation, followed by BalancedRandomForestClassifier.
